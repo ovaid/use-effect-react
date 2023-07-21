@@ -1,0 +1,42 @@
+*{
+    background-color: blueviolet;
+}
+
+
+.movies{
+    display: flex;
+    justify-content: space-between;
+}
+
+.display-movies{
+    display: flex;
+    flex-wrap: wrap;
+}
+.display-movies h3{
+    background-color: black;
+    color: tomato;
+    height: 40px;
+    width: 300px;
+    border-radius: 10px;
+    text-align: center;
+
+}
+
+.movie-details{
+    background-color: black !important;
+    color: tomato;
+    width: 500px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+
+
+}
+
+.movie-details img{
+    width: 90%;
+    height: 600px;
+    background-color: grey;
+    align-items: normal;
+}
